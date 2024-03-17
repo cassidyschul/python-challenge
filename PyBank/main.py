@@ -43,11 +43,7 @@ with open(csvpath) as csvfile:
     average_change= round((lastdayprofit-firstdayprofit)/(total_months-1), 2)
 
     print("Average Change: $", average_change)
-    
-    #initialized max and min values
-    # maxvalue = 0
-    # minvalue = 0
-
+   
     #initialized difference between profit/losses of the first two cells
     differencesmax = profitlosses[1]-profitlosses[0]
     differencesmin = profitlosses[1]-profitlosses[0]
